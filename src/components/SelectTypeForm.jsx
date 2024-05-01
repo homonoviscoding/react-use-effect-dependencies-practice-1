@@ -2,9 +2,8 @@ function SelectTypeForm({setDataType}) {
   // Write code here...
 
   const handleChange = (e) =>{
-    e.target.value
 
-    setDataType
+    setDataType(e.target.value)
   }
 
   return (
